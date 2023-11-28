@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taj Mahal</title>
+    <link rel="stylesheet" href="index.html" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="registro.js">
+  </head>
+  <header class="contenedor1">
+    <div class="logo1"><img src="logo1.png" alt="logo1" /></div>
+    <div class="titulo"><p>Maravillas del mundo moderno</p></div>
+    <div class="s1">
+      <a href="Acerca de.pdf" target="_blank">Acerca de</a>
+    </div>
+
+    <div class="s3">
+      <a href="mailto:esperanza.guerra@uabc.edu.mx">Contacto</a>
+    </div>
+    <div class="s5">
+      <a href="login.html"><img src="user.png" alt=""><div class="nombre-usuario">
+        <script>
+          const loggedInUser = localStorage.getItem("loggedInUser");
+          if (loggedInUser) {
+            document.write("<p> "+ loggedInUser + " </p>");
+          }
+          else{
+            document.write("<p>Iniciar secion</p>");
+          }
+        </script>
+      </div></a>
+    </div>
+    <div class="s4" ><a href="index.html"><img src="atras.png"></a> Regresar </div>
+  </header>
+  <body>
+    <div style="padding-left: 15%; padding-right: 15%">
+      <p style="text-align: center; font-size: 35px">Taj Mahal</p>
+      <div class="chichenimg"><img src="Taj Mahal.png" alt="" /></div>
+      <br />
+      <p class="config">
+        <br />
+        <br />
+        <br />
+
+        El Taj Mahal, una de las maravillas arquitectónicas del mundo, fue
+        construido en el siglo XVII en Agra, India, por el emperador mogol Shah
+        Jahan en memoria de su amada esposa, Mumtaz Mahal. La construcción
+        comenzó en 1632 y se completó en 1653. La estructura es un ejemplo
+        sublime de la arquitectura mogol, fusionando estilos persas, turcos e
+        indios.
+        <br />
+        <br />
+        La historia detrás del Taj Mahal es un testimonio de amor y pérdida.
+        Mumtaz Mahal murió durante el parto de su decimocuarto hijo, y Shah
+        Jahan quedó desconsolado. Como tributo a su esposa, decidió construir un
+        mausoleo incomparable en su honor. El Taj Mahal se erige a orillas del
+        río Yamuna y está rodeado por exquisitos jardines simétricos.
+        <br />
+        <br />
+        La estructura principal es de mármol blanco, adornada con intrincados
+        detalles en piedras semipreciosas. La famosa cúpula central se eleva
+        majestuosamente, flanqueada por cuatro minaretes que inclinan
+        ligeramente hacia afuera para proteger el mausoleo en caso de
+        terremotos. El diseño simboliza la perfección celestial y la eternidad
+        del amor.
+        <br />
+        <br />
+        En el interior, se encuentra la tumba de Mumtaz Mahal, junto con la de
+        Shah Jahan, quien fue enterrado allí más tarde. Las paredes están
+        decoradas con exquisitos detalles de incrustaciones y caligrafía del
+        Corán. El Taj Mahal ha resistido el paso del tiempo como un tributo
+        duradero al amor y la devoción, capturando la imaginación de millones de
+        visitantes anualmente y consolidándose como un ícono eterno de la India.
+        <br />
+        El Taj Mahal fue designado como una de las Nuevas Siete Maravillas del
+        Mundo en una ceremonia que tuvo lugar el 7 de julio de 2007.
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <iframe
+          style="margin-left: 10px; margin-right: 10px"
+          width="60%"
+          height="350px"
+          src="https://www.youtube.com/embed/eGfBah_Ebho?si=891WenmssPJQuBKM"
+        ></iframe>
+      </p>
+    </div>
+    <br />
+    <br />
+    <br />
+    <footer class="contenedor3">
+      <div class="f1">
+        <a href="temario del curso.pdf" target="_blank">Temario del curso</a>
+      </div>
+      <div class="f2">
+        <a href="https://www.uabc.mx/" target="_blank">UABC</a>
+      </div>
+      <div class="f3">Derechos de autor</div>
+    </footer>
+  </body>
+</html>

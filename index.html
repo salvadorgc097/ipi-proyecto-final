@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maravillas del mundo</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="chichenitza.html" />
+    <link rel="stylesheet" href="registro.js">
+    <link rel="stylesheet" href="login.js">
+  </head>
+  <body>
+    <header class="contenedor1">
+      <div class="logo1"><img src="logo1.png" alt="logo1" /></div>
+      <div class="titulo"><p>Maravillas del mundo moderno</p></div>
+      <div class="s1">
+        <a href="Acerca de.pdf" target="_blank">Acerca de</a>
+      </div>
+      <div class="s5">
+        <a href="login.html"><img src="user.png" alt=""><div class="nombre-usuario">
+          <script>
+            const loggedInUser = localStorage.getItem("loggedInUser");
+            if (loggedInUser) {
+              document.write("<p> "+ loggedInUser + " </p>");
+            }
+            else{
+              document.write("<p>Iniciar secion</p>");
+            }
+          </script>
+        </div></a>
+      </div>
+
+      <div class="s3">
+        <a href="mailto:esperanza.guerra@uabc.edu.mx">Contacto</a>
+      </div>
+
+    </header>
+
+    <main class="contenedor2">
+      <nav class="navegacion">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <img src="wlogo.png" alt="" />
+
+        <p>
+          <a
+            href="https://es.wikipedia.org/wiki/Gran_Muralla_China"
+            target="_blank"
+            >Gran muralla china</a
+          >
+        </p>
+        <p>
+          <a href="https://es.wikipedia.org/wiki/Petra" target="_blank"
+            >Petra</a
+          >
+        </p>
+        <p>
+          <a href="https://es.wikipedia.org/wiki/Coliseo" target="_blank"
+            >Coliseo</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://es.wikipedia.org/wiki/Chich%C3%A9n_Itz%C3%A1"
+            target="_blank"
+            >Chichen Itza</a
+          >
+        </p>
+        <p>
+          <a href="https://es.wikipedia.org/wiki/Machu_Picchu" target="_blank"
+            >Machu`Picchu</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://es.wikipedia.org/wiki/Cristo_Redentor"
+            target="_blank"
+            >Cristo redentor</a
+          >
+        </p>
+        <p>
+          <a href="https://es.wikipedia.org/wiki/Taj_Mahal" target="_blank"
+            >Taj Mahal</a
+          >
+        </p>
+      </nav>
+      <div class="uno">
+        <a href="murallachina.html"><img src="muralla china.jpg" alt="" /></a>
+      </div>
+      <div class="dos">
+        <a href="petra.html"><img src="petra.jpg" alt="" /></a>
+      </div>
+      <div class="tres">
+        <a href="coliseo.html"><img src="coliseo.jpg" alt="" /></a>
+      </div>
+      <div class="cuatro">
+        <a href="chichenitza.html"><img src="chichen itza.jpg" alt="" /></a>
+      </div>
+      <div class="cinco">
+        <a href="MachuPicchu.html"><img src="machu picchu.jpg" alt="" /></a>
+      </div>
+      <div class="seis">
+        <a href="cristoredentor.html"
+          ><img src="cristo redentor.webp" alt=""
+        /></a>
+      </div>
+      <div class="siete">
+        <a href="TajMahal.html"><img src="taj mahal.jpg" alt="" /></a>
+      </div>
+    </main>
+    <footer class="contenedor3">
+      <div class="f1">
+        <a href="temario del curso.pdf" target="_blank">Temario del curso</a>
+      </div>
+      <div class="f2">
+        <a href="https://www.uabc.mx/" target="_blank">UABC</a>
+      </div>
+      <div class="f3">Derechos de autor</div>
+    </footer>
+  </body>
+</html>
